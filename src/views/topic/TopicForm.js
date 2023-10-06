@@ -62,14 +62,14 @@ const TopicForm = () => {
          await dispatch(getLanguagesAsync())
 
          if (id) {
-            console.log("dd", id);
+            
             await dispatch(getTopicAsync())
             await dispatch(getTopic(id))
          }
       }
       fetchData()
    }, [dispatch, id])
-   console.log("selected", selected)
+   
 
 
    return (
