@@ -50,11 +50,11 @@ const TopicForm = () => {
    }
 
    const validateSchema = Yup.object().shape({
-      lang_id: Yup.string().required('This field is required'),
-      topic_name: Yup.string().required('topic name is required'),
-      descriptions: Yup.string().required('descriptions is required'),
+      lang_id: Yup.string().required('Language is required'),
+      topic_name: Yup.string().required('Name is required'),
+      descriptions: Yup.string().required('Descriptions is required'),
       seq_no: Yup.string().required('Please ented sequence number'),
-      status: Yup.string().required('enter status'),
+      status: Yup.string().required('Select Status'),
    })
 
    useEffect(() => {
