@@ -22,7 +22,7 @@ import {
     fetchedLanguages,
     getLanguagesAsync,
 } from './LanguageSlice'
-// import styles from './language.module.css'
+
 
 const Language = () => {
     const [intitialValues, setInitialValues] = useState({ name: '' })
