@@ -1,0 +1,71 @@
+.custom {
+  background-color: whitesmoke;
+}
+
+.headings {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: start;
+  padding-bottom: 18px;
+  color: pink;
+}
+
+.LanguageForm label {
+    font-size: larger;
+}
+
+.input{
+    background-color:#83A6B7;
+    color: black;
+    font-weight: 700;
+    font-size: larger;
+    padding-left: 0.8em;
+    /* padding-bottom:10px; */
+    text-transform: uppercase;
+    border: none;
+    height: 40px;
+}
+
+.input::placeholder{
+    color: #4B7283;
+    font-size: 14px;
+    /* font-weight: 700; */
+    
+    
+    vertical-align: center;
+    
+
+
+}
+
+.layout {
+  width: 1280px;
+  height: 832px;
+  top: 530px;
+  left: -640px;
+  border-radius: 20px;
+}
+
+.button{
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    font-size: large;
+    font-weight: 600;
+}
+
+
+.langTableList{
+  /* style={{ backgroundColor: '#475468', width: '43%', margin: '6px', padding: '8px', borderRadius: '10px', 'color': 'white' }} */
+  background-color:#83A6B7; 
+  width: 50%;
+  margin: 6px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+span{
+  color: black;
+}

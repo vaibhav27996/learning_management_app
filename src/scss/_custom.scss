@@ -1,0 +1,142 @@
+.cardStyle{
+    margin-left: -1rem;
+    margin-top: 2rem;
+    height: 82vh;
+    border-radius: 23px;
+
+    .heading {
+      font-weight: 500;
+      line-height: 27px;
+      font-size: 24px;
+      margin-left: 13px;
+      margin-top: 19px;
+      margin-bottom: -1px;
+    }
+    
+
+    .addButtonLink{
+      text-decoration: none;
+
+      .addButton{
+          background-color: #83A6B7;
+          border-style: none;
+          width: 53%;
+
+          .addFormLabel{
+            color: white;
+            font-size: 19px;
+          }
+        
+          .plusAddForm{
+            color: white;
+            font-size: 19px;
+          }
+
+      }
+
+    }
+
+
+
+   .subCardStyle{
+      background-color: #F2F1F1;
+      border-radius:15px;
+      margin-top: 1rem;
+      height: 66vh;
+      width: 96%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+
+  
+  
+  .LanguageForm label {
+      font-size: larger;
+  }
+  
+  .inputTag{
+      background-color:#83A6B7;
+      color: black;
+      font-weight: 700;
+      font-size: larger;
+      padding-left: 0.8em;
+      text-transform: uppercase;
+      border: none;
+      height: 40px;
+  }
+  
+  .inputTag::placeholder{
+      color: #4B7283;
+      font-size: 14px;
+       vertical-align: center;
+  }
+
+  .inputTag-select{
+    background-color:#83A6B7;
+    padding-left: 0.8em;
+    text-transform: uppercase;
+    border: none;
+    height: 40px;
+}
+  
+  .layout {
+    width: 1280px;
+    height: 832px;
+    top: 530px;
+    left: -640px;
+    border-radius: 20px;
+  }
+  
+  .button{
+      background-color: whitesmoke;
+      color: black;
+      border: none;
+      font-size: large;
+      font-weight: 600;
+  }
+  
+  
+  .langTableList{
+    background-color:#83A6B7; 
+    width: 50%;
+    margin: 6px;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  
+  span{
+    color: black;
+  }
+  
+
+
+  
+  .editIcon,
+  .deleteIcon{
+    cursor: pointer;
+  }
+
+  .editIcon:hover,
+  .deleteIcon:hover{
+    opacity: 0.5;
+  }
+
+  .tableList{
+    width: 100%;
+    margin-top: 1em !important;
+    border : 3px solid blue !important;
+    border-radius: 10px !important;
+  }
+
+  .thead,.tbody {
+    vertical-align: middle;
+  }
+
+  .tbody {
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+    border-collapse: collapse;
+    padding: .2em .4em;
+  }
+  
