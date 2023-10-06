@@ -54,7 +54,7 @@ const TopicForm = () => {
       topic_name: Yup.string().required('Name is required'),
       descriptions: Yup.string().required('Descriptions is required'),
       seq_no: Yup.string().required('Please ented sequence number'),
-      status: Yup.string().required('Select'),
+      status: Yup.string().required('Select status'),
    })
 
    useEffect(() => {
