@@ -44,8 +44,8 @@ const _nav = [
   },
   {
     component: CNavItem,
-    name: 'Sunbscription',
-    to: '/charts',
+    name: 'Subscription',
+    to: '/subscription',
     icon: <CIcon icon={cilChartPie} customClassName="nav-icon" />,
   },
   {

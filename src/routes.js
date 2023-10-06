@@ -1,9 +1,11 @@
 import React from 'react'
-
+// learning management system
 const Dashboard = React.lazy(() => import('./views/dashboard/Dashboard'))
 const Language = React.lazy(() => import('./views/language/Language'))
 const Topic = React.lazy(() => import('./views/topic/Topic'))
 const TopicForm = React.lazy(() => import('./views/topic/TopicForm'))
+const Subscription = React.lazy(() => import('./views/subscription/Subscription'))
+const SubscriptionForm = React.lazy(() => import('./views/subscription/SubscriptionForm'))
 
 
 const Colors = React.lazy(() => import('./views/theme/colors/Colors'))
@@ -61,10 +63,13 @@ const routes = [
 
   { path: '/', exact: true, name: 'Home' },
   { path: '/dashboard', name: 'Dashboard', element: Dashboard },
-  { path: '/language', name: 'Language', element: Language },
-  { path: '/topic', name: 'Topic', element: Topic },
+  { path: '/language', name: 'Language', element: Language, exact: true },
+  { path: '/topic', name: 'Topic', element: Topic, exact: true },
   { path: '/topic/form', name: 'Topic', element: TopicForm },
   { path: '/topic/form/:id', name: 'Topic', element: TopicForm },
+  { path: '/subscription', name: 'Topic', element: Subscription, exact: true },
+  { path: '/subscription/form', name: 'Topic', element: SubscriptionForm},
+  { path: '/subscription/form/:id', name: 'Topic', element: SubscriptionForm},
 
 
   { path: '/theme', name: 'Theme', element: Colors, exact: true },
